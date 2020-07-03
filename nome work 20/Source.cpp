@@ -31,6 +31,9 @@ int main() {
     char action;
     cout <<" enter an example in itself number action number end press enter"<<endl;
     cin >> a1 >>action>>b1;
+	if(b1 == 0){
+		cout<<0;
+	}
     
     
     
